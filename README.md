@@ -21,10 +21,13 @@ Metodologias: BDD, TDD, Agile, DevOps
 
 Integrações: CI/CD, Jenkins, Azure DevOps, AWS
 
-📁 Projetos práticos (coração do portfólio!)
-Para cada projeto:
+📁 Projetos práticos 
 
-Nome do projeto e link para o repositório
+Aqui estão os meus repositórios com os projetos de testes:
+
+- [Testes com Cypress](https://github.com/edinea/cypress-tests)
+- [Testes com Robot Framework](https://github.com/edinea/robot-tests)
+- [Testes com Rest Assured](https://github.com/edinea/rest-assured-tests)
 
 Breve descrição: objetivo, escopo dos testes
 
