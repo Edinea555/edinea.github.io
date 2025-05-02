@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e022e;
+  background-image: url('Fundo1.avif'); /* imagem na pasta public */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container central */
+.App {
+  text-align: center;
+  max-width: 900px;
+  width: 90%;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Título */
+.title {
+  font-size: 3rem;
+  color: #ffcc00;
+  margin-bottom: 16px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+/* Parágrafos */
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Seções */
+section {
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ffcc00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+h2 svg {
+  margin-right: 10px;
+  color: #ffcc00;
+}
+
+/* Listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li svg {
+  color: #00ffcc;
+  margin-right: 10px;
+}
+
+/* Links para repositórios */
+a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ffcc00;
+}
+
+/* Rodapé */
+footer {
+  font-size: 1rem;
+  color: #ccc;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+/* Estilo específico para seções de Certificações e Idiomas */
+.certifications, .languages {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+.certifications ul li::before,
+.languages ul li::before {
+  content: "✔️";
+  margin-right: 8px;
+  color: #00ffcc;
+}
